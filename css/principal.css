@@ -1,0 +1,129 @@
+
+/* reset */
+
+*{ 
+   margin: 0;  
+   padding: 0;
+}
+
+
+body{
+    background-color: #e1e6e3;
+}
+
+body header h1 { color: #4f4240; 
+    
+    background-color: #e1e6e3; 
+    
+    font-size: 70px; font-weight: bold; 
+     
+    text-transform: uppercase; 
+    
+    text-align: center; 
+   
+    font-family: 'Rowdies', cursive;
+    
+}
+  
+
+
+body nav ul{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+body main section h2 {color:#d3ba6a; margin: 10px 15px; padding: 20px;
+    font-size: 250%; 
+    text-align: center;
+
+}
+
+
+
+body main section p{
+    font-size: larger;
+}
+
+.colorAzul { color:blue;
+
+}
+
+.yellowgreen { color:yellowgreen;
+    border-top: double 5px #4f4240;
+    border-left: double 5px #4f4240;
+    border-right: double 5px #4f4240;
+    border-bottom: double 5px #4f4240;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.gold { color:goldenrod;
+    border-top: double 5px #4f4240;
+    border-left: double 5px #4f4240;
+    border-right: double 5px #4f4240;
+    border-bottom: double 5px #4f4240;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+
+}
+
+.gricesito { color:grey;
+    border-top: double 5px #4f4240;
+    border-left: double 5px #4f4240;
+    border-right: double 5px #4f4240;
+    border-bottom: double 5px #4f4240;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+/* Definiciones */
+.Centro{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    border-style: groove;
+}
+.Grid{
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    grid-template-rows: repeat(2, 0.3fr);
+    
+}
+
+.Centro{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items:  center;
+    border-style: ridge;
+}
+
+.Sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+
+/* Bibliografia */
+
+
+/* Imagenes */
+
+
+/* Laboratorio */
